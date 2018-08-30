@@ -27,7 +27,7 @@ import butterknife.ButterKnife;
  * Date: 2017-06-20  14:21
  */
 
-public abstract class CoreBaseActivity<P extends BasePresenter, M extends BaseModel> extends AppCompatActivity {
+public abstract class CoreBaseActivity<P extends CoreBasePresenter, M extends CoreBaseModel> extends AppCompatActivity {
     private String TAG;
 
     public P mPresenter;

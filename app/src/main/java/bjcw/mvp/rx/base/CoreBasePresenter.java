@@ -1,6 +1,6 @@
 package bjcw.mvp.rx.base;
 
-public abstract class BasePresenter<M,V> {
+public abstract class CoreBasePresenter<M,V> {
     public M mModel;
     public V mView;
     public RxManager mRxManager = new RxManager();
